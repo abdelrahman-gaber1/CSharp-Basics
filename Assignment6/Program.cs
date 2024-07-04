@@ -1,5 +1,6 @@
 ﻿namespace Assignment6
 {
+    //
     enum WeekDays
     {
         Monday , Tuseday , Wednesday , Thursday , Friday , Saturday , Sunday
@@ -12,7 +13,7 @@
         public Person () {
             age = 0;
             name = "";
-        }
+        } 
         public Person(int _age , string _name)
         {
             age = _age;
